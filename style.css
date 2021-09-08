@@ -1,3 +1,26 @@
+#parent{
+  display:grid;
+  grid-template-columns: 150px 150px 300px 150px 150px;
+  justify-content: center; 
+}
+
+#child1,#child2,#child3,#child4{
+  padding: 5px;
+  margin:5%;
+  text-align:center;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius:5px;
+}
+.hero-name{
+  display:inline-block;
+}
+.score{
+  display: inline-block;
+  font-size: 38px;
+}
+#main-score{
+  text-align: center;
+}
 .footer{
   margin-left : 80px;
   font-size : 18px;
